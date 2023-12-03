@@ -1,9 +1,9 @@
 .form__fieldset {
     border-width: 2px;
-    border-color:#fcca72; 
+    border-color: #5c3a00;
 }
 
-.form__fieldsetLegend{
+.form__fieldsetLegend {
     padding: 6px;
 }
 
@@ -17,15 +17,15 @@
     text-align: center;
     margin: auto;
     padding: 10px 0px;
-    border-color: #fcca72;
-    background-color: #fcca72;
-    color: #1f1f1f;
+    border-color: #5c3a00;
+    background-color: #5c3a00;
+    color: #fff;
     width: 100%;
     font-weight: 700;
 }
 
 .form__button:hover {
-    background-color: #fab948;
+    background-color: #472e02;
 }
 
 .form__field {
@@ -34,6 +34,7 @@
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
 .form__field--input {
     margin: 2px;
     min-width: 200px;

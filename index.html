@@ -22,29 +22,33 @@
 </head>
 
 <body class="body">
-    <header>
-        <h1 class="header__title">Kalkulator walutowy</h1>
-        <p class="header__description">Sprawdź wartość Twojej transakcji walutowej po aktualnie obowiązuących kursach dostępnych walut.</p>
-    </header>
-    <form class="js-form">
-        <fieldset class="form__fieldset">
-            <legend class="form__fieldsetLegend">Parametry transakcji</legend>
-            <label><span class="form__textLabel">Kwota w PLN*: </span><input class="form__field--input js-amount" type="number"
-                    min="0.01" step="0.01" max="1000000" placeholder="1000" required></label>
-            <label for="currency"><span class="form__textLabel">Przelicz na:</span></label>
-            <select id="currency" name="currency" class="form__field js-currency">
-                <option>USD</option>
-                <option>EUR</option>
-                <option>GBP</option>
-                <option>CHF</option>
-            </select>
-            </p>
-            <p>
-                <button class="form__button">Przelicz</button>
-            </p>
-            <p class="form__result js-result">
-            </p>
-        </fieldset>
+    <div class="body__transbox">
+        <header>
+            <h1 class="header__title">Kalkulator walutowy</h1>
+            <p class="header__description">Sprawdź wartość Twojej transakcji walutowej po aktualnie obowiązuących
+                kursach dostępnych walut.</p>
+        </header>
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__fieldsetLegend">Parametry transakcji</legend>
+                <label><span class="form__textLabel">Kwota w PLN*: </span><input class="form__field--input js-amount"
+                        type="number" min="0.01" step="0.01" max="1000000" placeholder="1000" required></label>
+                <label for="currency"><span class="form__textLabel">Przelicz na:</span></label>
+                <select id="currency" name="currency" class="form__field js-currency">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>GBP</option>
+                    <option>CHF</option>
+                </select>
+            </fieldset>
+    </div>
+    <p>
+        <button class="form__button">Przelicz</button>
+    </p>
+    <div class="body__transbox--result">
+        <p class="form__result js-result">
+        </p>
+    </div>
     </form>
 </body>
 
