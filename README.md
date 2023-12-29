@@ -8,5 +8,7 @@ The website allows to convert amount of monety from Polish Zloty (PLN) to 4 fore
 
 The application uses an average currency exchange rate published by the National Bank of Poland on the 10th of November 2023.
 
+![Currency converter animation](gif/currency-converter_animation.gif)
+
 ## Demo
 You can check it out using this URL address: https://milosz-anders.github.io/currency-converter/
